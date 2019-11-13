@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91269664-557e-4e8a-bae4-c251ba888894" name="Default Changelist" comment="" />
+    <list default="true" id="91269664-557e-4e8a-bae4-c251ba888894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/requests/CreateItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CartControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/ItemControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/P04-eCommerce Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P04-eCommerce Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/EcommerceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/EcommerceApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="277" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,6 +43,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,7 +55,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TUU8xTBsgwa7JxzNrmngoKjFlw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -52,6 +86,88 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.All in P04-eCommerce Application">
+    <configuration name="All in P04-eCommerce Application" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P04-eCommerce Application" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P04-eCommerce Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.OrderControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.fetch_order_history_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P04-eCommerce Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.OrderControllerTest" />
+      <option name="METHOD_NAME" value="fetch_order_history_happy_path" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.should_fail_user_does_not_exit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P04-eCommerce Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.OrderControllerTest" />
+      <option name="METHOD_NAME" value="should_fail_user_does_not_exit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.submit_order_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P04-eCommerce Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.OrderControllerTest" />
+      <option name="METHOD_NAME" value="submit_order_happy_path" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in P04-eCommerce Application" />
+        <item itemvalue="JUnit.OrderControllerTest.fetch_order_history_happy_path" />
+        <item itemvalue="JUnit.OrderControllerTest.should_fail_user_does_not_exit" />
+        <item itemvalue="JUnit.OrderControllerTest" />
+        <item itemvalue="JUnit.OrderControllerTest.submit_order_happy_path" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,5 +180,42 @@
       <updated>1573514011552</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$ItemControllerTest_fetch_all_items_happy_path.ic" NAME="ItemControllerTest.fetch_all_items_happy_path Coverage Results" MODIFIED="1573671490514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$OrderControllerTest_fetch_order_history_happy_path.ic" NAME="OrderControllerTest.fetch_order_history_happy_path Coverage Results" MODIFIED="1573686231210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1573618793874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$ItemControllerTest.ic" NAME="ItemControllerTest Coverage Results" MODIFIED="1573667585260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$UserControllerTest_should_fail_fetch_user_with_id_does_not_exist.ic" NAME="UserControllerTest.should_fail_fetch_user_with_id_does_not_exist Coverage Results" MODIFIED="1573618770270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$CartControllerTest_remove_from_cart_happy_path.ic" NAME="CartControllerTest.remove_from_cart_happy_path Coverage Results" MODIFIED="1573682416218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$All_in_P04_eCommerce_Application.ic" NAME="All in P04-eCommerce Application Coverage Results" MODIFIED="1573686236902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/P04_eCommerce_Application$ItemControllerTest_fetch_item_with_name_happy_path.ic" NAME="ItemControllerTest.fetch_item_with_name_happy_path Coverage Results" MODIFIED="1573671343818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.controllers.*</FILTER>
+    </SUITE>
   </component>
 </project>
