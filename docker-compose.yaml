@@ -1,5 +1,39 @@
 version: "3.5"
 services:
+  ecommerce-app:
+    image: kevin/ecommerce-application:0.0.1-SNAPSHOT
+    environment:
+      - LOGGING_FILE:=/logs/ecommerce-application.log
+    ports:
+      - 8080:8080
+    volumes:
+      - log_volume:/logs
+
+  splunk:
+      image: splunk/splunk
+      hostname: splunk
+      environment:
+        - SPLUNK_START_ARGS=--accept-license
+        - SPLUNK_USER=root
+        - SPLUNK_PASSWORD=peters123
+        - SPLUNK_ENABLE_LISTEN=9997
+      ports:
+        - 8000:8000
+
+  splunkforwarder:
+      image: store/splunk/universalforwarder:7.3
+      hostname: splunkforwarder
+      environment:
+        - SPLUNK_START_ARGS=--accept-license
+        - SPLUNK_FORWARD_SERVER=splunk:9997
+        - SPLUNK_PASSWORD=peters123
+        - SPLUNK_ADD=monitor /logs
+      restart: always
+      depends_on:
+        - splunk
+      volumes:
+        - log_volume:/logs
+
   jenkins:
     image: jenkins/jenkins:lts
     container_name: jenkins
@@ -7,6 +41,10 @@ services:
     environment:
       JENKINS_HOST_HOME: "/data/jenkins"
     ports:
-      - "8080:8080"
+      - "3030:3030"
       - "5000:5000"
       - "50000:50000"
+
+volumes:
+  log_volume:
+

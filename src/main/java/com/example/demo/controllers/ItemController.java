@@ -4,9 +4,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 import com.example.demo.model.requests.CreateItemRequest;
-import com.example.demo.model.requests.CreateUserRequest;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +17,7 @@ import com.example.demo.model.persistence.repositories.ItemRepository;
 @RequestMapping("/api/item")
 public class ItemController {
 
-	private static final Logger log = LoggerFactory.getLogger(ItemController.class);
+	private static final Log log = LogFactory.getLog(ItemController.class);
 
 	@Autowired
 	private ItemRepository itemRepository;
@@ -60,7 +59,7 @@ public class ItemController {
 
 		itemRepository.save(item);
 
-		log.info("new item created :", item.getId());
+		log.info("new item created : " + item.getId());
 
 		return ResponseEntity.ok(item);
 	}

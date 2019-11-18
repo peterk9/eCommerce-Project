@@ -1,7 +1,7 @@
 package com.example.demo.controllers;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -25,7 +25,7 @@ import java.util.Random;
 @RequestMapping("/api/user")
 public class UserController {
 
-	private static final Logger log = LoggerFactory.getLogger(UserController.class);
+	private static final Log log = LogFactory.getLog(UserController.class);
 
 	@Autowired
 	private UserRepository userRepository;
@@ -45,10 +45,10 @@ public class UserController {
 	public ResponseEntity<User> findByUserName(@PathVariable String username) {
 		User user = userRepository.findByUsername(username);
 		if(user == null){
-			log.warn("requested user not found", username);
+			log.warn("requested user not found " + username);
 			return ResponseEntity.notFound().build();
 		}
-		log.info("details fetched for user", username);
+		log.info("details fetched for user " + username);
 		return  ResponseEntity.ok(user);
 	}
 	
@@ -83,7 +83,7 @@ public class UserController {
 
 		userRepository.save(user);
 
-		log.info("new user created :" , user.getId());
+		log.info("new user created : " + user.getId());
 
 		return ResponseEntity.ok(user);
 	}
